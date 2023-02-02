@@ -15,7 +15,7 @@ export default function Detalis({
     removingDuplicates,
 }) {
 
-    const linkId = +window.location.pathname.substring(7);
+    const linkId = +window.location.pathname.substring(14);
 
     const findItem = () => {
         let obj;
