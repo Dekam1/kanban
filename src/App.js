@@ -106,7 +106,7 @@ function App() {
         }>
         </Route>
 
-        <Route path='/tasks/:id' element={
+        <Route path='/kanban/tasks/:id' element={
           <Detalis
             modeling={modeling}
             ready={ready}
