@@ -91,7 +91,7 @@ function App() {
       }}
     >
       <Routes>
-        <Route exact path='/' element={
+        <Route exact path='/kanban' element={
           <Home
             inputVisibility={inputVisibility}
             onVisibility={onVisibility}
