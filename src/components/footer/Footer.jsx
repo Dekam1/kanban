@@ -11,7 +11,7 @@ export default function Footer({ modeling, completed }) {
                         <p>Finished tasks: <span>{completed.length}</span></p>
                     </div>
                     <div>
-                        <p>Kanban board by <span>Ildar</span>, <span>2023</span></p>
+                        <p>Kanban board by <span>Name</span>, <span>2023</span></p>
                     </div>
                 </div>
             </div>
