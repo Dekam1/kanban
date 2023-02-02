@@ -1,0 +1,16 @@
+.button__submit {
+    padding: 4px 22px;
+    cursor: pointer;
+    width: 102px;
+    height: 29px;
+    border: none;
+    border-radius: 5px;
+    background: #0079BF;
+    color: #ffffff;
+    font-size: 18px;
+    transition: .2s all ease;
+
+    &:hover {
+        background: #06669e;
+    }
+}

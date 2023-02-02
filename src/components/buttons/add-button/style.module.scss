@@ -1,0 +1,41 @@
+.button_add {
+    padding: 4px 5px;
+    display: flex;
+    align-items: center;
+    width: 102px;
+    height: 29px;
+    border-radius: 5px;
+    background: inherit;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+
+    .button__image {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background-image: url('../img/add-card.png');
+        background-repeat: no-repeat;
+        block-size: cover;
+        background-position: center;
+    }
+
+    .button__text {
+        margin-left: 3px;
+        font-size: 18px;
+        color: #5E6C84;
+    }
+
+    &:hover {
+        background: #FFFFFF;
+    }
+
+    &.disabled {
+        opacity: 50%;
+        cursor: auto;
+
+        &:hover {
+            background: inherit;
+        }
+    }
+}

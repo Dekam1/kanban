@@ -1,0 +1,27 @@
+.footer {
+    background: #0067A3;
+    padding: 16px 0px;
+    font-size: 18px;
+
+    .footer__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .task__info {
+            width: 336px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    p {
+        font-size: inherit;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        display: none;
+    }
+}
