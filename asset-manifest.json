@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kanban/static/css/main.b7fbf942.css",
+    "main.js": "/kanban/static/js/main.883125e6.js",
+    "static/media/user-avatar.svg": "/kanban/static/media/user-avatar.8c75e22659ff0c8d0c51b327365a7432.svg",
+    "index.html": "/kanban/index.html",
+    "main.b7fbf942.css.map": "/kanban/static/css/main.b7fbf942.css.map",
+    "main.883125e6.js.map": "/kanban/static/js/main.883125e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7fbf942.css",
+    "static/js/main.883125e6.js"
+  ]
+}
